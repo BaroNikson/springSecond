@@ -4,12 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Timer {
+public class Dog extends Animal{
 
 
-    private Long nanoTime = System.nanoTime();
-
-    public Long getTime() {
-        return nanoTime;
-    }
 }
